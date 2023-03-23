@@ -1,5 +1,12 @@
 # ignore these files:
 *.DS_Store
+*.png
+amr_grid.inp
+dust_density.inp
+dustopac.inp
+radmc3d.inp
+stars.inp
+wavelength_micron.inp
 
 # ignore these directories in all directories:
 .ipynb_checkpoints/
