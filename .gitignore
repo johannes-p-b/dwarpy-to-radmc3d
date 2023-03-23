@@ -1,0 +1,5 @@
+# ignore all files like:
+*.DS_Store
+
+# ignore all files in all directories like:
+.ipynb_checkpoints/
