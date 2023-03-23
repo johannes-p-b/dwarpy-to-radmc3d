@@ -3,3 +3,4 @@
 
 # ignore these directories in all directories:
 .ipynb_checkpoints/
+__pycache__/
