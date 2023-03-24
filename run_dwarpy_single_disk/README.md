@@ -1,5 +1,3 @@
-# Johannes Bahrenberg, 20.03.2023
-
 INTRODUCTION
 ------------
 This directory is related to Carolin Kimmig's Dwarpy code: 
@@ -7,7 +5,7 @@ This directory is related to Carolin Kimmig's Dwarpy code:
 Kimmig et al. "Dwarpy: A One-Dimensional Evolution Code for Warped Astrophysical Disks". JOURNAL (YEAR) ...
 
 Dwarpy is used to simulate warped disks and their evolution in time. With RADMC-3D corresponding radiative transfer computations can quickly be performed.
-In the following, the simulation of a single Dwarpy disk is explained. To do a simulation of a disk evolving in time, visit the directory run_dwarp_disk_evolution.
+In the following, a radiative transfer simulation of a single Dwarpy disk is explained. To do a simulation of a disk evolving in time, please visit the directory run_dwarp_disk_evolution.
 
 
 CREATE YOUR OWN DISK WITH DWARPY
@@ -28,11 +26,11 @@ FILES
 -----
 This directory should contain the following files:
 
-  README                         (This file)
-  Makefile                       (Only for convenient cleanmodel and cleanall)
-  dustkappa_silicate.inp         (some dust opacity file)
-  problem_setup.py               (a python script for setting up some input files)
-  problem_plotexamples.py        (a python script for imaging a disk)
+  README                         (This file)  
+  Makefile                       (Only for convenient cleanmodel and cleanall)  
+  dustkappa_silicate.inp         (some dust opacity file)  
+  problem_setup.py               (a python script for setting up some input files)    
+  problem_plotexamples.py        (a python script for imaging a disk)  
   dwarpy_data/warped_disk.rad	 (a folder containing a file with information on the disk)
 
 
@@ -53,7 +51,7 @@ RUN THIS MODEL
   
   5) Type python problem_plotexamples.py
 
-	or
+or
 
   5) Go into python with matplotlib interactive mode:
         ipython --matplotlib
