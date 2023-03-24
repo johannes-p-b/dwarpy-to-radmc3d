@@ -5,7 +5,7 @@ This directory is related to Carolin Kimmig's Dwarpy code:
 Kimmig et al. "Dwarpy: A One-Dimensional Evolution Code for Warped Astrophysical Disks". JOURNAL (YEAR) ...
 
 Dwarpy is used to simulate warped disks and their evolution in time. With RADMC-3D corresponding radiative transfer computations can quickly be performed.
-In the following, the simulation of a single Dwarpy disk is explained. To do a simulation of a disk evolving in time, visit the directory run_dwarp_disk_evolution.
+In the following, a radiative transfer simulation of a single Dwarpy disk is explained. To do a simulation of a disk evolving in time, please visit the directory run_dwarp_disk_evolution.
 
 
 CREATE YOUR OWN DISK WITH DWARPY
