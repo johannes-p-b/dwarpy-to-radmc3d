@@ -1,5 +1,3 @@
-# Johannes Bahrenberg, 20.03.2023
-
 INTRODUCTION
 ------------
 This directory is related to Carolin Kimmig's Dwarpy code: 
