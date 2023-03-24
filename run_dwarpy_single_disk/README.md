@@ -26,11 +26,11 @@ FILES
 -----
 This directory should contain the following files:
 
-  README                         (This file)
-  Makefile                       (Only for convenient cleanmodel and cleanall)
-  dustkappa_silicate.inp         (some dust opacity file)
-  problem_setup.py               (a python script for setting up some input files)
-  problem_plotexamples.py        (a python script for imaging a disk)
+  README                         (This file)  
+  Makefile                       (Only for convenient cleanmodel and cleanall)  
+  dustkappa_silicate.inp         (some dust opacity file)  
+  problem_setup.py               (a python script for setting up some input files)    
+  problem_plotexamples.py        (a python script for imaging a disk)  
   dwarpy_data/warped_disk.rad	 (a folder containing a file with information on the disk)
 
 
@@ -51,7 +51,7 @@ RUN THIS MODEL
   
   5) Type python problem_plotexamples.py
 
-	or
+or
 
   5) Go into python with matplotlib interactive mode:
         ipython --matplotlib
