@@ -1,16 +1,18 @@
-INTRODUCTION
+# Simulate a single disk
+
+Introduction
 ------------
 This directory is related to Carolin Kimmig's Dwarpy code: 
 
 Kimmig et al. "Dwarpy: A One-Dimensional Evolution Code for Warped Astrophysical Disks". JOURNAL (YEAR) ...
 
 Dwarpy is used to simulate warped disks and their evolution in time. With RADMC-3D corresponding radiative transfer computations can quickly be performed. In the following, a radiative transfer simulation of a single Dwarpy disk is explained.
-To do a simulation of a disk evolving in time, please visit the directory run_dwarpy_disk_evolution.
 
 If you do not have Dwarpy installed yet, you can still perform a test simulation. This example directory contains the data of a warped disk created with Dwarpy. If you want to create your own disk, see the section below for a quick start with Dwarpy.
 
+Note: To do a simulation of a disk evolving in time, please visit the directory run_dwarpy_disk_evolution.
 
-FILES
+Files
 -----
 This directory should contain the following files:
 
@@ -22,7 +24,7 @@ This directory should contain the following files:
   dwarpy_data/warped_disk.rad    (a folder containing a file with information on the disk, created with Dwarpy)
   
   
-CREATE YOUR OWN DISK WITH DWARPY
+Create your own disk with Dwarpy
 --------------------------------
 Make sure you have installed Dwarpy: *LINK_TO_DWARPY*
 
@@ -42,9 +44,8 @@ Then export it as a .rad file in the dwarpy_data directory and give the file a n
 For more detailed information please refer to the Dwarpy documentation.
 
 
-RUN THIS MODEL
+Run this model
 --------------
-
   1) Make sure you have compiled the main radmc3d code in src/ already.
      See manual for how to compile. 
   2) Type 
@@ -55,7 +56,7 @@ RUN THIS MODEL
      then you can speed up the code with e.g. 'radmc3d mctherm setthreads 4'.
   4) Make sure that the Python support libraries are installed. See the
      RADMC-3D manual for details on how to install the radmc3dPy and the
-     radmc3d_tools libraries.
+     radmc3d_tools libraries.  
   5a) Type 
         python problem_plotexamples.py
 
@@ -72,4 +73,4 @@ or
 
 
 
-20.03.23, 28.03.23
+20.03.2023, 28.03.2023

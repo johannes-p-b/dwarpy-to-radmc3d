@@ -1,12 +1,16 @@
-# Disk evolution simulation
+# Simulate a disk that evolves over time
 
 Introduction
 ------------
+This example directory is related to Carolin Kimmig's Dwarpy code.
 
+Kimmig et al. "Dwarpy: A One-Dimensional Evolution Code for Warped Astrophysical Disks". JOURNAL (YEAR) ...
 
+Dwarpy is used to simulate warped disks and their evolution in time. With RADMC-3D corresponding radiative transfer computations can quickly be performed. In the following, a radiative transfer simulation of a single Dwarpy disk is explained.
 
-Note: For the simulation of single disks (i.e. no time evolution) see [Single disk simulation](#single-disk-simulation).
-(Note: For the simulation of disks evolving in time see [Disk evolution simulation](#disk-evolution-simulation).)
+If you do not have Dwarpy installed yet, you can still perform a test simulation. This example directory contains the data of a warped disk created with Dwarpy. If you want to create your own disk, see the section below for a quick start with Dwarpy.
+
+Note: To perform a simulation of single disks (i.e. no time evolution), visit the directory /single-disk-simulation.
 
 
 Files
@@ -59,3 +63,18 @@ The data can be further proceeded by calling:
 
 Run this model
 --------------
+  1) Make sure you have compiled the main radmc3d code in src/ already.
+     See manual for how to compile. 
+  2) Type 
+        python problem_setup.py
+  3) In the shell type 'radmc3d mctherm' and wait until this is finished
+     NOTE: Do not, as in run_simple_userdef_1/, type './radmc3d mctherm' (i.e.
+     do not use the ./). NOTE: If you compiled the code with openmp,
+     then you can speed up the code with e.g. 'radmc3d mctherm setthreads 4'.
+  4) Make sure that the Python support libraries are installed. See the
+     RADMC-3D manual for details on how to install the radmc3dPy and the
+     radmc3d_tools libraries.  
+  5) TBD  
+
+
+29.03.2023
