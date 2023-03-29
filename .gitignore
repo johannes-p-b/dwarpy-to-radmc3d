@@ -7,6 +7,8 @@ dustopac.inp
 radmc3d.inp
 stars.inp
 wavelength_micron.inp
+*.dat
+*.out
 
 # ignore these directories in all directories:
 .ipynb_checkpoints/
